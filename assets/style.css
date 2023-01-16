@@ -1,0 +1,14 @@
+body {
+}
+
+canvas {
+	background-color: #fff5e4;
+	border: 16px solid #c1a3a3;
+	border-radius: 16px;
+	box-sizing: border-box;
+}
+
+.maze-lvl-easy {
+	width: 495px;
+	height: 495px;
+}
