@@ -16,8 +16,31 @@
 			<canvas id="maze" width="495" height="495"></canvas>
 		</div>
 		<div class="button-container">
-			<button class="button" id="controsBtn">Controls</button>
+			<button class="button" id="controsBtn" class="btn">Controls</button>
 		</div>
+
+		<!-- Modal -->
+		<!-- You Win Modal -->
+		<div id="yesModal" class="modal">
+			<div class="mod-container">
+				<h2 class="game-title">Well done! You win!</h2>
+				<div class="center">
+					<button class="rounded btn pa-btn">play again</button>
+				</div>
+			</div>
+		</div>
+		<!-- End of you win modal-->
+
+		<!-- You Lose Modal -->
+		<div id="noModal" class="modal">
+			<div class="mod-container">
+				<h2 class="game-title">Oh no! You lost!</h2>
+				<div class="center">
+					<button class="rounded btn pa-btn">play again</button>
+				</div>
+			</div>
+		</div>
+		<!-- End of you win modal-->
 		<script src="assets/script.js"></script>
 	</body>
 </html>

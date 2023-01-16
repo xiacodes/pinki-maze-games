@@ -81,6 +81,7 @@ document.onkeydown = function (e) {
 		player.y++;
 	}
 
+	// When the player reaches the end
 	if (player.y === maze1.exitY && player.x === maze1.exitX) {
 		ctx.clearRect(0, 0, canvas.width, canvas.height);
 		alert("Well done!");
