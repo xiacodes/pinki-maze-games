@@ -1,4 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap");
+
 body {
+	background-color: #faeee7;
+	font-size: 16px;
+	font-family: "Hanken Grotesk", sans-serif;
 }
 
 canvas {
@@ -8,7 +14,15 @@ canvas {
 	box-sizing: border-box;
 }
 
-.maze-lvl-easy {
-	width: 495px;
-	height: 495px;
+h1 {
+	font-size: 3rem;
+	font-weight: normal;
+	font-family: "Abril Fatface", cursive;
+	text-align: center;
+}
+
+.canvas-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }

@@ -36,12 +36,12 @@ var player = {
 	x: 5,
 	y: 0,
 	color: "#F94892",
-	size: cellSize - 15,
+	size: cellSize - 20,
 };
 
 // Draw the player character
 ctx.fillStyle = player.color;
-ctx.fillRect(player.x * cellSize + 7, player.y * cellSize + 7, player.size, player.size);
+ctx.fillRect(player.x * cellSize + 10, player.y * cellSize + 10, player.size, player.size);
 
 // Move the player character
 document.onkeydown = function (e) {
@@ -73,5 +73,5 @@ document.onkeydown = function (e) {
 
 	// Redraw the player character
 	ctx.fillStyle = player.color;
-	ctx.fillRect(player.x * cellSize + 5, player.y * cellSize + 5, player.size, player.size);
+	ctx.fillRect(player.x * cellSize + 10, player.y * cellSize + 10, player.size, player.size);
 };
