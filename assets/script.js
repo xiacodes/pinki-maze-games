@@ -81,7 +81,10 @@ document.onkeydown = function (e) {
 		player.y++;
 	}
 
-	// if (player.y === )
+	if (player.y === maze1.exitY && player.x === maze1.exitX) {
+		ctx.clearRect(0, 0, canvas.width, canvas.height);
+		alert("Well done!");
+	}
 
 	ctx.clearRect(0, 0, canvas.width, canvas.height);
 
